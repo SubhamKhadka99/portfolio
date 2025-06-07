@@ -244,20 +244,19 @@ export const experiences = [
     job: "Innovative Learn",
     date: "2025-Present",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Co-founded a startup focused on personalized A-level tutoring.",
+      "Building an online platform for A-level tutoring, focused on personalized learning.",
+      "Managing frontend development using HTML, CSS, JavaScript, and planning AI integration.",
+      "Conducted user research and designed initial MVP prototype.",
     ],
   },
   {
     title: "Marketing Head",
-    job: "UJIR Distributors Pvt Ltd",
+    job: "UJIR Distributor Pvt Ltd",
     date: "2025-Present",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Led digital marketing initiatives to boost regional brand visibility, driving a 40% increase in engagement through targeted social media and promotional campaigns.",
+      "Continuously enhancing technical skills and expanding expertise in digital marketing strategies.",
     ],
   },
 ];

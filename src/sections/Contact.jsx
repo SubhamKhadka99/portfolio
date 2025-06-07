@@ -2,7 +2,8 @@ import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import Alert from "../components/Alert";
 import { Particles } from "../components/Particles";
-
+/*service_hm2xl8h*/
+/*template_xbn9vmd*/
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -31,13 +32,13 @@ const Contact = () => {
     try {
       console.log("From submitted:", formData);
       await emailjs.send(
-        "service_79b0nyj",
-        "template_17us8im",
+        "service_hm2xl8h",
+        "template_xbn9vmd",
         {
           from_name: formData.name,
-          to_name: "Ali",
+          to_name: "Subham",
           from_email: formData.email,
-          to_email: "AliSanatiDev@gmail.com",
+          to_email: "subhamkhadka99@gmail.com",
           message: formData.message,
         },
         "pn-Bw_mS1_QQdofuV"
@@ -80,7 +81,7 @@ const Contact = () => {
               name="name"
               type="text"
               className="field-input field-input-focus"
-              placeholder="John Doe"
+              placeholder="Your Name"
               autoComplete="name"
               value={formData.name}
               onChange={handleChange}
@@ -96,7 +97,7 @@ const Contact = () => {
               name="email"
               type="email"
               className="field-input field-input-focus"
-              placeholder="JohnDoe@email.com"
+              placeholder="example@email.com"
               autoComplete="email"
               value={formData.email}
               onChange={handleChange}
